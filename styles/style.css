@@ -1,0 +1,52 @@
+body {
+    background-color: #F5F5F5;
+}
+.form {
+    border: 1px #A7A7A9 solid;
+    border-radius: 5px;
+    background-color: #FFF;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 1em auto;
+}
+
+.form select, input {
+    margin-bottom: 10px;
+}
+
+.form input[type=submit] {
+    background-color: #16A34A;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 0.5em;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.message {
+
+}
+
+.message p {
+    width: max-content;
+    margin: 0 auto;
+    font-size: 1.5em;
+
+}
+
+.message table {
+    background-color: #FFF;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.message table, th, td {
+    border: 1px solid;
+    padding: 1em;
+}
